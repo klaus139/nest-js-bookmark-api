@@ -3,6 +3,7 @@ import { PrismaClient } from 'prisma/generated/prisma-client';
 
 @Injectable()
 export class PrismaService extends PrismaClient {
+  userCreateInput: any;
   constructor() {
     super({
       datasources: {

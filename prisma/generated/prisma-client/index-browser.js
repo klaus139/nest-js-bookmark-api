@@ -95,7 +95,8 @@ exports.Prisma.BookmarkScalarFieldEnum = makeEnum({
   updatedAt: 'updatedAt',
   title: 'title',
   description: 'description',
-  link: 'link'
+  link: 'link',
+  userId: 'userId'
 });
 
 exports.Prisma.QueryMode = makeEnum({
